@@ -1,0 +1,39 @@
+/*
+=============================================== COLOR SCHEMES ===============================================
+
+A. BACKGROUND COLORS
+B. FEATURED/PAGE TITLE BACKGROUND PATTERNS
+C. COMMON FONT COLORS
+D. FONT FAMILIES
+
+*/
+/* -------------------- A. BACKGROUND COLORS -------------------- */
+#container, header, body.contact {background:#fff;} /* Main Background Color + Search - Default #fff */
+#featured-top, #header-border, #featured-base, footer {border-color: #e5e5e5;}  /* Main Border Colors - Defualt #e5e5e5 */
+body, #header-border, #featured, footer {background-color:#f4f4f4;} /* Main HighLight Background Colors - Default #f4f4f4 */
+
+
+
+/* -------------------- B. FEATURED/PAGE TITLE BACKGROUND PATTERNS -------------------- */
+#featured {background-image:url(../images/pattern1.png);} /* Update pattern1.png to anything 1-10 */
+
+
+
+/* -------------------- C. COMMON FONT COLORS -------------------- */
+body, #s, #s2 {color:#888888;}   /* Default font color - #888888 */
+a {text-decoration:none; color:#e2926b;} /* Default link - #e2926b  */
+a:hover {text-decoration:underline;  } /* Default link:hover */
+
+h1, h2, h3, h4, h5, h6 {color:#555;} /* Default Headings Color - #555 */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color:#555; } /* Headings Link Color - #555 */
+body h4, body h5, body h6, .blog-homepage-headline a, 
+.blog-homepage-headline, .date-homepage  {color:#777;} /* Default H5 and H6 Headings Color - #777 */
+
+
+
+/* -------------------- D. FONT FAMILIES -------------------- */
+body, ul.sf-menu ul li { font-family:"Helvetica Neue", Arial, Sans-Serif; } /*  Body and sub-menu font-family */
+ul.sf-menu, ul#footer-navigation, #header-addition {font-family:"Helvetica Neue", Arial, Sans-Serif;  }  /*  Navigation font-family */
+.fancy { font-family: 'Damion', cursive; font-weight:normal;}  /*  Fancy Heading font-family */
+h1, h2, h3, h4, h5, h6 {font-family:'Lato', Arial, Sans-Serif; font-weight:700; }  /*  Headings font-family */
+#page-title h2 {font-family:'Droid Serif', serif; font-weight: normal; font-style:italic; }  /*  Page Title font-family */
