@@ -270,5 +270,5 @@ $(".grid4column").hover(function(){
 =============================================== 09. pop  ===============================================
 */
 jQuery(document).ready(function($) { 
-	alert("bom")
+	//alert("bom")
 })
